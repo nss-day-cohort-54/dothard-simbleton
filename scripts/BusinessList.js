@@ -80,7 +80,7 @@ document
                 if (foundAgent === undefined) {
                     window.alert("No agent found.")
                 } else {
-                    companySearchResultArticle.innerHTML = `<div class="customer__address">
+                    companySearchResultArticle.innerHTML = `<div class="customer-address">
                         <h2><p>${foundAgent.agentName} </p></h2>
                         <p>${foundAgent.agentCompany}</p>
                         <p>${foundAgent.agentPhone}</p>`
